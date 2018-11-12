@@ -162,6 +162,11 @@ namespace Lights_Out
             Reset();
         }
 
+        private void HelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Turn off all of the lights by changing them to gray." + "\n" + "Click on the light to toggle it and its adjacent lights.", "Help");
+        }
+
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
@@ -467,9 +472,6 @@ namespace Lights_Out
             Change_Colours(arrBtnVal);
         }
 
-        private void HelpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Turn off all of the lights by changing them to gray." + "\n" + "Click on the light to toggle it and its adjacent lights.", "Help");
-        }
+       
     }
 }
