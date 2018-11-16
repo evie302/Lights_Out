@@ -164,7 +164,8 @@ namespace Lights_Out
 
         private void HelpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Turn off all of the lights by changing them to gray." + "\n" + "Click on the light to toggle it and its adjacent lights.", "Help");
+            MessageBox.Show("Turn off all of the lights by changing them to gray." + "\n" + "Click on the light to toggle it and its adjacent lights." + 
+                "\n" + "\n" + "Difficulty levels:" + "\n" + "\n" + "Hard - all lights out" + "\n" + "Medium - one light on" + "\n" + "Easy - two lights on", "Help");
         }
 
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
